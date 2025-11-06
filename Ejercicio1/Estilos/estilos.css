@@ -1,0 +1,28 @@
+body {
+  background-color: #4d8d51;
+}
+
+.btn-success {
+  background-color: #6ccf6d !important;
+  border-color: #6ccf6d !important;
+}
+
+.btn-outline-success {
+  color: #6ccf6d !important;
+  border-color: #6ccf6d !important;
+}
+
+h1 {
+  color: #4da85a;
+  
+}
+
+/*Efecto hover para las cartas de comidas*/
+.card:hover {
+  transform: translateY(-15px); /* sube un poco */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* sombra más grande */
+  transition: all 0.3s ease; /* transición suave */
+  background-color: #e0f7e9; /* cambia ligeramente el fondo */
+}
+
+
