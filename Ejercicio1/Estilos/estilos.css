@@ -16,47 +16,43 @@ body {
 h1 {
   color: #000000;
   text-align: center;
-  
 }
-nav{
+nav {
   padding: 30px;
-  font-size: 20PX;
+  font-size: 20px;
   justify-content: center;
   text-align: center;
-
 }
 
 /*Efecto hover para las cartas de comidas*/
 .card:hover {
-  transform: translateY(-15px); 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
-  transition: all 0.3s ease; 
-  background-color: #e0f7e9; 
+  transform: translateY(-15px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  background-color: #e0f7e9;
   justify-items: center;
 }
-
 
 footer {
   text-align: center;
   width: 100%;
   padding: 20px;
-  background-color: #000; 
+  background-color: #000;
   color: white;
-  margin-top: auto; 
+  margin-top: auto;
   position: static;
 }
 
-
-form{
-
-  .btn btn-success w-100{
+form {
+  .btn btn-success w-100 {
     color: #4da85a;
   }
-  
 }
 
-
-img{
-  width: 300px;
-  height: 300px;
+img {
+  width: 500px;
+  height: 500px;
 }
+
+/*div de la parte de nombre de usuario y contraseña*/
+
