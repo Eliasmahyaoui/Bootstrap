@@ -9,8 +9,8 @@ body {
 }
 
 .btn-outline-success {
-  color: #ffffff !important;
-  border-color: #6ccf6d !important;
+  color: #ffffff ;
+  border-color: #6ccf6d ;
 }
 
 h1 {
@@ -55,7 +55,17 @@ form{
   
 }
 
+.navbar.navbar-expand-lg.bg-body-tertiary{
+  position: sticky;
+  padding: 2%;
+}
+
 .btn.btn-outline-success{
 
 background-color:rgb(162, 226, 43)
+}
+
+/*Clase de enviar respuesta*/
+.btn .btn-success .w-100{
+  background-color: #4da85a;
 }
