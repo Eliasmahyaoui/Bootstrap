@@ -55,10 +55,13 @@ form{
   
 }
 
-.navbar.navbar-expand-lg.bg-body-tertiary{
+.navbar.navbar-expand-lg.bg-body-tertiary {
   position: sticky;
+  top: 0;
   padding: 2%;
+   z-index: 1000; /* cualquier número alto que asegure que quede por encima */
 }
+
 
 .btn.btn-outline-success{
 
