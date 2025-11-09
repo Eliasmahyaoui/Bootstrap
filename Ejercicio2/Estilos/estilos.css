@@ -1,7 +1,19 @@
+
+/*Body general */
 body {
   background-color: #4d8d51;
   padding-top: 80px;
 }
+
+/*Body para el carrusel */
+.body-fondo-carrusel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+}
+
+
 
 .btn-success {
   background-color: #2b2b2b !important;
