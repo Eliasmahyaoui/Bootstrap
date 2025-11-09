@@ -67,11 +67,12 @@ form{
   
 }
 
+/*Dato importante, para que veais que el sticky esta bien, se ve bien en el apartado de mensajes ya que hay que scrollear más*/
 .navbar.navbar-expand-lg.bg-body-tertiary {
   position: sticky;
   top: 0;
   padding: 2%;
-   z-index: 1000; /* cualquier número alto que asegure que quede por encima */
+   z-index: 1000; 
 }
 
 
